@@ -117,7 +117,7 @@ ALTER DATABASE [ExistingDbCodeFirstDemo] SET  READ_WRITE
 GO
 ```
 
-### Create an existng table
+### Create an existing table
 
 ```
 USE [ExistingDbCodeFirstDemo]
@@ -141,7 +141,7 @@ CREATE TABLE [dbo].[ExistingTable](
 
 GO
 ```
-### Add some inital records in existing table
+### Add some initial records in existing table
 ```
 USE [ExistingDbCodeFirstDemo]
 GO
@@ -157,9 +157,9 @@ GO
 
 ### Update the DbContext to include the POCO class for new table
 > Its already done for you and shared in this repository.
-### Database Migration using "Nuget Package Manager Console"
+### Database Migration using "Nugget Package Manager Console"
 > Database Migration should be done to create table for the newly added POCO classes
-#### Enable Mirgations
+#### Enable Migrations
 ```
 // Execute below command to enable database migration for your application
 Enable-Migrations
